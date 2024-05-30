@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.9b8715d6.css",
+    "main.js": "/Personal-Website/static/js/main.d5821dcf.js",
+    "static/media/Black-bg.mov": "/Personal-Website/static/media/Black-bg.a5c5ef18db9421cc2bc9.mov",
+    "static/media/ruthvik_avatar.png": "/Personal-Website/static/media/ruthvik_avatar.73f31ac91ccbdd26595e.png",
+    "index.html": "/Personal-Website/index.html",
+    "main.9b8715d6.css.map": "/Personal-Website/static/css/main.9b8715d6.css.map",
+    "main.d5821dcf.js.map": "/Personal-Website/static/js/main.d5821dcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b8715d6.css",
+    "static/js/main.d5821dcf.js"
+  ]
+}
