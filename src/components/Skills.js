@@ -20,7 +20,6 @@ const Skills = () => {
                     <li>Computer Vision</li>
                     <li>Neural Networks</li>
                     <li>MATLAB</li>
-                    <li>AR/VR</li>
                     <li>Docker</li>
                     <li>Kubernetes</li>
                     <li>Git</li>

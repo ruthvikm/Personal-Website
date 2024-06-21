@@ -31,8 +31,8 @@ const Home = () => {
                             transition={{ duration: 1, delay: 1 }}
                         >
                             <span>Machine Learning Engineer</span>
-                            <br/>
                             <span>Software Developer</span>
+                            <br/>
                         </motion.p>
                         
                         <motion.a
