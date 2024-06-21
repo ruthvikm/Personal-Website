@@ -39,6 +39,14 @@ const Skills = () => {
                 <ul>
                     <li>Microsoft Azure Fundamentals (AZ-900)</li>
                 </ul>
+                <div className="blog-posts">
+                    <h3>Blog Posts</h3>
+                    <ul>
+                        <li><a href="https://oss-slu.github.io/news/pi4micronaut">Pi4Micronaut Introduction</a></li>
+                        <li><a href="https://oss-slu.github.io/news/blog_pi4micronaut">Pi4Micronaut Launch</a></li>
+                        <li><a href="https://oss-slu.github.io/news/blog_presentation_pi4micronaut">Pi4Micronaut Workshop</a></li>
+                    </ul>
+                </div>
             </section>
         </main>
     );
