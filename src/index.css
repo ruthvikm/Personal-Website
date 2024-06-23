@@ -1109,6 +1109,130 @@ body {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Pictures Section */
+.pictures {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.pictures h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  position: relative;
+  display: inline-block;
+  color: #ffffff; /* White color for a premium look */
+}
+
+.pictures h2::after {
+  content: '';
+  display: block;
+  width: 50%;
+  margin: 0.5em auto;
+  height: 2px;
+  background: #28a745;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.photo-item {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.photo {
+  width: 100%;
+  height: 200px; /* Consistent height */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+  object-fit: cover; /* Maintain aspect ratio */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+}
+
+.modal {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  max-height: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+  transform: scale(0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.active {
+  transform: scale(1);
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 10px; /* Add rounded borders to the enlarged image */
+  transition: transform 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+  object-fit: contain; /* Ensure the image fits within the modal */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 900px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .modal {
+    width: 95%; /* Adjust modal width for smaller screens */
+    max-width: 95%; /* Adjust max-width for smaller screens */
+    max-height: 95%; /* Adjust max-height for smaller screens */
+  }
+
+  .modal-image {
+    border-radius: 10px; /* Maintain border radius */
+  }
+}
+
+
 
 /* Experience Section */
 .experience {

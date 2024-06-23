@@ -11,7 +11,9 @@ import Education from './components/Education';
 import Footer from './components/Footer';
 import videoSrc from './assets/Black-bg.mov';
 import vidSrc from './assets/Jarvis.webm';
-import imgSrc from './assets/friends.png'
+import imgSrc from './assets/friends.png';
+import Pictures from './components/Pictures';
+
 
 const App = () => {
     const [showAssistant, setShowAssistant] = useState(false);
@@ -68,6 +70,7 @@ const App = () => {
                 <section id="education"><Education /></section>
                 <section id="projects"><Projects /></section>
                 <section id="skills"><Skills /></section>
+                <section id="pictures"><Pictures/></section>
                 <section id="contact"><Contact /></section>
                 <section id="footer"><Footer /></section>
             </div>
