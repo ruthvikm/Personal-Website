@@ -930,9 +930,53 @@ body {
   color: #bbb;
 }
 
-.projects .project p {
+.projects .project p,
+.projects .project ul {
   font-size: 1em;
   color: #ccc;
+  text-align: justify; /* Justify the content */
+}
+
+.projects .project ul {
+  padding-left: 0.1em; /* Adjust this value to move the list items to the left */
+  list-style-position: inside; /* Ensure the list items are properly aligned */
+}
+
+.projects .project li {
+  font-size: 1em;
+  color: #e0e0e0;
+  margin-bottom: 0.5em; /* Add space between list items */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .projects h2 {
+    font-size: 2em;
+  }
+
+  .projects .project h3 {
+    font-size: 1.3em;
+  }
+
+  .projects .project p,
+  .projects .project li {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects h2 {
+    font-size: 1.8em;
+  }
+
+  .projects .project h3 {
+    font-size: 1.2em;
+  }
+
+  .projects .project p,
+  .projects .project li {
+    font-size: 0.8em;
+  }
 }
 
 /* Skills Section */

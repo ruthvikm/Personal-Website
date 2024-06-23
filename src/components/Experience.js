@@ -19,7 +19,7 @@ const Experience = () => {
                     <h4>IBM India Pvt Ltd, Bangalore</h4>
                     <span>March 2020 - August 2022</span>
                     <p>
-                        Developed and maintained applications for Shell, enhancing Python modules and processes. Worked on a predictive platform for industrial data, developing and deploying machine learning models to predict failures and optimize maintenance schedules, utilizing frameworks like Django and Matplotlib.
+                    Led the development of machine learning models for an automated warehouse monitoring system using drones. Utilized Python, TensorFlow, and PyTorch for data wrangling and model training. Implemented ResNet and YOLO for real-time object detection, boosting performance. Optimized GPU tasks with CUDA, authored REST APIs for Azure integration, and improved model accuracy. Actively participated in Agile and DevOps practices, collaborating with cross-functional teams to deliver high-quality solutions.
                     </p>
                 </div>
                 <div className="job">

@@ -8,11 +8,12 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import Pictures from './components/Pictures';
 import Footer from './components/Footer';
 import videoSrc from './assets/Black-bg.mov';
 import vidSrc from './assets/Jarvis.webm';
 import imgSrc from './assets/friends.png';
-import Pictures from './components/Pictures';
+
 
 
 const App = () => {
