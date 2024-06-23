@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.e1da9661.css",
-    "main.js": "/Personal-Website/static/js/main.dcf9d003.js",
+    "main.css": "/Personal-Website/static/css/main.25007925.css",
+    "main.js": "/Personal-Website/static/js/main.bbe49260.js",
     "static/media/Black-bg.mov": "/Personal-Website/static/media/Black-bg.a5c5ef18db9421cc2bc9.mov",
     "static/media/pi4micronaut_team_1.jpg": "/Personal-Website/static/media/pi4micronaut_team_1.39ab1c3c91a7a5d84bbb.jpg",
     "static/media/pi4micronaut_team_working.jpg": "/Personal-Website/static/media/pi4micronaut_team_working.22fd56ad49d0ee33ac7d.jpg",
@@ -20,11 +20,11 @@
     "static/media/fa-v4compatibility.ttf": "/Personal-Website/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/Personal-Website/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/Personal-Website/index.html",
-    "main.e1da9661.css.map": "/Personal-Website/static/css/main.e1da9661.css.map",
-    "main.dcf9d003.js.map": "/Personal-Website/static/js/main.dcf9d003.js.map"
+    "main.25007925.css.map": "/Personal-Website/static/css/main.25007925.css.map",
+    "main.bbe49260.js.map": "/Personal-Website/static/js/main.bbe49260.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1da9661.css",
-    "static/js/main.dcf9d003.js"
+    "static/css/main.25007925.css",
+    "static/js/main.bbe49260.js"
   ]
 }
