@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.6220758c.css",
-    "main.js": "/Personal-Website/static/js/main.bcb29217.js",
+    "main.css": "/Personal-Website/static/css/main.e1da9661.css",
+    "main.js": "/Personal-Website/static/js/main.dcf9d003.js",
     "static/media/Black-bg.mov": "/Personal-Website/static/media/Black-bg.a5c5ef18db9421cc2bc9.mov",
+    "static/media/pi4micronaut_team_1.jpg": "/Personal-Website/static/media/pi4micronaut_team_1.39ab1c3c91a7a5d84bbb.jpg",
+    "static/media/pi4micronaut_team_working.jpg": "/Personal-Website/static/media/pi4micronaut_team_working.22fd56ad49d0ee33ac7d.jpg",
+    "static/media/Workshop_ruthvik_3.jpeg": "/Personal-Website/static/media/Workshop_ruthvik_3.3f34f8d87ef3a8b518d9.jpeg",
+    "static/media/Workshop_ruthvik_2.jpeg": "/Personal-Website/static/media/Workshop_ruthvik_2.9910a6776598aaa844d4.jpeg",
     "static/media/ruthvik_avatar.png": "/Personal-Website/static/media/ruthvik_avatar.73f31ac91ccbdd26595e.png",
+    "static/media/Workshop_ruthvik.jpeg": "/Personal-Website/static/media/Workshop_ruthvik.95947ab1309fa1928cac.jpeg",
     "static/media/Jarvis.webm": "/Personal-Website/static/media/Jarvis.0f65eb4805963bc48722.webm",
     "static/media/fa-solid-900.ttf": "/Personal-Website/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/Personal-Website/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
@@ -15,11 +20,11 @@
     "static/media/fa-v4compatibility.ttf": "/Personal-Website/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
     "static/media/fa-v4compatibility.woff2": "/Personal-Website/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/Personal-Website/index.html",
-    "main.6220758c.css.map": "/Personal-Website/static/css/main.6220758c.css.map",
-    "main.bcb29217.js.map": "/Personal-Website/static/js/main.bcb29217.js.map"
+    "main.e1da9661.css.map": "/Personal-Website/static/css/main.e1da9661.css.map",
+    "main.dcf9d003.js.map": "/Personal-Website/static/js/main.dcf9d003.js.map"
   },
   "entrypoints": [
-    "static/css/main.6220758c.css",
-    "static/js/main.bcb29217.js"
+    "static/css/main.e1da9661.css",
+    "static/js/main.dcf9d003.js"
   ]
 }
