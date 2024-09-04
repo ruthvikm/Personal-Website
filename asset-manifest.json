@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.40e1ee82.css",
-    "main.js": "/Personal-Website/static/js/main.a2e70e4e.js",
+    "main.js": "/Personal-Website/static/js/main.58189619.js",
     "static/media/Black-bg.mov": "/Personal-Website/static/media/Black-bg.a5c5ef18db9421cc2bc9.mov",
     "static/media/ruthvik_avatar1.png": "/Personal-Website/static/media/ruthvik_avatar1.f1d121e547501c04eae5.png",
     "static/media/pi4micronaut_team_1.jpg": "/Personal-Website/static/media/pi4micronaut_team_1.39ab1c3c91a7a5d84bbb.jpg",
@@ -21,10 +21,10 @@
     "static/media/fa-v4compatibility.woff2": "/Personal-Website/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/Personal-Website/index.html",
     "main.40e1ee82.css.map": "/Personal-Website/static/css/main.40e1ee82.css.map",
-    "main.a2e70e4e.js.map": "/Personal-Website/static/js/main.a2e70e4e.js.map"
+    "main.58189619.js.map": "/Personal-Website/static/js/main.58189619.js.map"
   },
   "entrypoints": [
     "static/css/main.40e1ee82.css",
-    "static/js/main.a2e70e4e.js"
+    "static/js/main.58189619.js"
   ]
 }
