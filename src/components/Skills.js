@@ -4,36 +4,39 @@ import '../index.css';
 const Skills = () => {
     return (
         <main>
+
             <section className="skills">
                 <h2>Skills</h2>
-                <ul>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>TensorFlow</li>
-                    <li>PyTorch</li>
-                    <li>Scikit-Learn</li>
-                    <li>OpenCV</li>
-                    <li>Machine Learning</li>
-                    <li>Deep Learning</li>
-                    <li>Natural Language Processing</li>
-                    <li>Computer Vision</li>
-                    <li>Neural Networks</li>
-                    <li>MATLAB</li>
-                    <li>Docker</li>
-                    <li>Kubernetes</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>CI/CD</li>
-                    <li>RESTful APIs</li>
-                    <li>Agile Development</li>
-                    <li>Microservices</li>
-                    <li>CUDA</li>
-                    <li>Pandas</li>
-                    <li>NumPy</li>
-                    <li>Azure Machine Learning</li>
-                </ul>
+                <div className="skill">
+                    <h3>Programming Languages</h3>
+                    <p>Python, Java, C++, R</p>
+                </div>
+                <div className="skill">
+                    <h3>Areas of Expertise</h3>
+                    <p>Machine Learning, Deep Learning, Computer Vision, Natural Language Processing (NLP), Neural Networks, AI Algorithms, LLMs & GenAI</p>
+                </div>
+                <div className="skill">
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS SageMaker, Azure Machine Learning, Docker, Kubernetes, MLOps, CI/CD</p>
+                </div>
+                <div className="skill">
+                    <h3>Frameworks & Tools</h3>
+                    <p>TensorFlow, PyTorch, Scikit-Learn, Keras, OpenCV, NLTK, Pandas, NumPy, PySpark, MLFlow, Hugging Face, SQL, XGBoost</p>
+                </div>
+                <div className="skill">
+                    <h3>APIs & Libraries</h3>
+                    <p>FastAPI, RESTful APIs, RAG, GPT, BERT, Langchain, Streamlit</p>
+                </div>
+                <div className="skill">
+                    <h3>Development Practices</h3>
+                    <p>Agile Development, Microservices, Version Control (Git, GitHub), Testing and Validation, CI/CD Pipelines</p>
+                </div>
+                <div className="skill">
+                    <h3>GPU & Parallel Computing</h3>
+                    <p>CUDA, GPU Acceleration, Distributed Computing</p>
+                </div>
             </section>
+
             <section className="certifications">
                 <h3>Certifications</h3>
                 <ul>

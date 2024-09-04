@@ -7,11 +7,11 @@ const Experience = () => {
             <section className="experience">
                 <h2>Experience</h2>
                 <div className="job">
-                    <h3>Graduate Research Assistant</h3>
-                    <h4>Open-Source SLU, St. Louis</h4>
+                    <h3>Research Assistant</h3>
+                    <h4>Open-Source SLU, Saint Louis University, St. Louis</h4>
                     <span>June 2023 - May 2024</span>
                     <p>
-                        Led the development of BubbleScan, an AI application for analyzing bubbled responses from scantron sheets, and the Pi4Micronaut project, a Java library for Raspberry Pi hardware interactions using the Micronaut framework and PI4J library. Implemented Agile methodologies and managed technical aspects, ensuring high software quality and timely project completion.
+                        Tech-Lead for a team of four, spearheading the development of BubbleScan-AI, an open-source AI tool that automates scantron sheet analysis, improving grading efficiency and reducing manual effort by 95%. Also directed the Pi4Micronaut project, building a Java library for Raspberry Pi hardware integration using the Micronaut framework and Pi4J. Employed Agile methodologies to ensure high-quality software, timely delivery, and seamless team collaboration.
                     </p>
                 </div>
                 <div className="job">
@@ -19,7 +19,7 @@ const Experience = () => {
                     <h4>IBM India Pvt Ltd, Bangalore</h4>
                     <span>March 2020 - August 2022</span>
                     <p>
-                    Led the development of machine learning models for an automated warehouse monitoring system using drones. Utilized Python, TensorFlow, and PyTorch for data wrangling and model training. Implemented ResNet and YOLO for real-time object detection, boosting performance. Optimized GPU tasks with CUDA, authored REST APIs for Azure integration, and improved model accuracy. Actively participated in Agile and DevOps practices, collaborating with cross-functional teams to deliver high-quality solutions.
+                        Developed and deployed machine learning models for predictive maintenance and warehouse automation, improving efficiency by reducing equipment downtime by 30%. Leveraged CUDA to boost computational performance by 40%, and deployed scalable solutions on Azure with Docker and Kubernetes, ensuring robust, real-time data processing across distributed environments.
                     </p>
                 </div>
                 <div className="job">
@@ -27,7 +27,7 @@ const Experience = () => {
                     <h4>Fincore Pvt Ltd, Bangalore</h4>
                     <span>July 2019 - Dec 2019</span>
                     <p>
-                        Developed a web-based ticketing tool using Python, employing machine learning algorithms and NLP techniques to automatically categorize incidents. Enhanced the system's ability to understand and process user queries effectively, ensuring quick and accurate ticket assignment.
+                        Designed and implemented a sentiment analysis tool using NLP, achieving 92% accuracy in customer feedback evaluation. This tool provided critical insights that helped the company optimize customer engagement strategies, driving better customer satisfaction.
                     </p>
                 </div>
             </section>

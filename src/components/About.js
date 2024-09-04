@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/ruthvik_avatar.png'; 
+import profilePic from '../assets/ruthvik_avatar1.png'; 
 import '../index.css';
 
 const About = () => {

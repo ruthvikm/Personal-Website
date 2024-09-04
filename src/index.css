@@ -982,7 +982,7 @@ body {
 /* Skills Section */
 .skills {
   text-align: center;
-  padding: 2em 0;
+  padding: 0.5em 0.3em;
 }
 
 .skills h2 {
@@ -997,65 +997,87 @@ body {
   display: block;
   width: 50%;
   margin: 0.5em auto;
-  height: 2px;
+  height: 1px;
   background: #28a745;
 }
 
-.skills ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Default: 4 columns */
-  gap: 1em;
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 1200px; /* Adjust as needed */
-}
-
-.skills ul li {
+.skills .skill {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
-  padding: 0.5em 1em;
+  padding: 1em 1.5em;
+  margin: 1em 0;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.skills .skill:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skills .skill h3 {
+  font-size: 1.5em;
+  color: #28a745;
+  margin-bottom: 0.2em;
+}
+
+.skills .skill h4 {
   font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #e0e0e0;
 }
 
-.skills ul li:hover {
-  transform: scale(1.1);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+.skills .skill span {
+  font-size: 0.9em;
+  color: #bbb;
 }
 
-.skills h3 {
-  font-size: 2em;
-  margin-top: 2em;
-  position: relative;
-  display: inline-block;
+.skills .skill p,
+.skills .skill ul {
+  font-size: 1em;
+  color: #ccc;
+  text-align: justify; /* Justify the content */
 }
 
-.skills h3::after {
-  content: '';
-  display: block;
-  width: 50%;
-  margin: 0.5em auto;
-  height: 2px;
-  background: #28a745;
+.skills .skill ul {
+  padding-left: 0.1em; /* Adjust this value to move the list items to the left */
+  list-style-position: inside; /* Ensure the list items are properly aligned */
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
-  .skills ul {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for screens up to 1200px */
+.skills .skill li {
+  font-size: 1em;
+  color: #e0e0e0;
+  margin-bottom: 0.5em; /* Add space between list items */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .skills h2 {
+    font-size: 2em;
+  }
+
+  .skills .skill h3 {
+    font-size: 1.3em;
+  }
+
+  .skills .skill p,
+  .skills .skill li {
+    font-size: 0.9em;
   }
 }
 
-@media (max-width: 900px) {
-  .skills ul {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for screens up to 900px */
+@media (max-width: 480px) {
+  .skills h2 {
+    font-size: 1.8em;
   }
-}
 
-@media (max-width: 600px) {
-  .skills ul {
-    grid-template-columns: 1fr; /* 1 column for screens up to 600px */
+  .skills .skill h3 {
+    font-size: 1.2em;
+  }
+
+  .skills .skill p,
+  .skills .skill li {
+    font-size: 0.8em;
   }
 }
 
