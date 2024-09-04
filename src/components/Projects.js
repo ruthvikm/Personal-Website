@@ -99,6 +99,29 @@ const Projects = () => {
                     </ul>
                 </div>
 
+                <div className="project">
+                    <h3>Personal Chatbot using RAG</h3>
+                    <p>
+                    Developed a personal chatbot leveraging <b>Retrieval-Augmented Generation (RAG)</b> architecture, <b>Streamlit</b>, <b>Langchain</b>, and <b>Cohere</b> for dynamic dialogue management and LLM-based responses.
+                    </p>
+                    <ul>
+                    <li>Utilized <b>Langchain</b> to facilitate efficient conversation flows and natural language understanding.</li>
+                    <li>Integrated <b>Cohere's language models</b> for real-time, human-like responses, enhancing user engagement.</li>
+                    <li>Deployed the chatbot as a web application using <b>Streamlit</b>, providing users with a seamless and interactive interface.</li>
+                    </ul>
+                </div>
+
+                <div className="project">
+                    <h3>YouTube Transcript Generator</h3>
+                    <p>
+                    Created a YouTube transcript generator using <b>OpenAI</b>, <b>Langchain</b>, and <b>Streamlit</b>, allowing users to easily extract and analyze video transcripts.
+                    </p>
+                    <ul>
+                    <li>Leveraged <b>GEMINI API</b> for accurate transcript extraction, improving workflow efficiency for content creators and researchers.</li>
+                    <li>Employed <b>Langchain</b> for enhanced NLP capabilities to segment and analyze transcripts effectively.</li>
+                    <li>Deployed the generator as a user-friendly web tool using <b>Streamlit</b>, offering real-time transcript generation with a simplified interface.</li>
+                    </ul>
+                </div>
 
                 <div className="project">
                     <h3>Pi4Micronaut</h3>
