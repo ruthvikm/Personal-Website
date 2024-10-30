@@ -16,17 +16,17 @@ const Education = () => {
                     </div>
                     <div className="education-item">
                         <h3>Master of Computer Applications</h3>
-                        <h4>The Oxford College of Engineering</h4>
+                        <h4>Visvesvarya Technological University</h4>
                         <span>2016 - 2019</span>
                         <p>GPA: 3.3 / 4.0</p>
-                        <p>Visvesvaraya Technological University, Karnataka, India</p>
+                        <p>Karnataka, India</p>
                     </div>
                     <div className="education-item">
                         <h3>Bachelor's in Computer Science</h3>
-                        <h4>Chaitanya Degree College</h4>
+                        <h4>Krishna University</h4>
                         <span>2013 - 2016</span>
                         <p>GPA: 3.3 / 4.0</p>
-                        <p>Krishna University, Andhra Pradesh, India</p>
+                        <p>Andhra Pradesh, India</p>
                     </div>
                 </div>
             </section>
